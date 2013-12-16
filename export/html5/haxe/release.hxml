@@ -1,0 +1,17 @@
+-main ApplicationMain 
+-lib openfl
+-lib openfl-html5-dom
+-lib flixel
+-lib flixel-ui
+-lib flixel-addons
+-cp source
+-D tools=1.2.0
+-D FLX_MOUSE_ADVANCED
+-D openfl=1.2
+-D html5
+-D web
+-js export/html5/bin/Ludum Dare 28.js
+-cp export/html5/haxe
+-D html5
+-D html
+--remap flash:flash

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="24" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="basic" tilewidth="16" tileheight="16">
+  <image source="../images/tiles.png" width="256" height="32"/>
+ </tileset>
+ <layer name="terrain" width="24" height="24">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="tileset" value="basic"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJyFlVtyxDAIBJGQff8jb1IlKq0263xQu0ZoeA1oRcT6kRtybSn9gp7/b+mtq7tjy5Se9vy+tm3JwFk2WIWfjW/GRv3aGAl8xjqQa9mwNs6VsbNGI874l3TMYUE6vFvnhZ87F99d8eyjY3W//XujD+TC3eCaJ12vOz/mm7Fpv/6xc0xdzar3Hdcz/nhkjroHXb3JLcdZvKVv18bz47yvODl7SV+c9kwzPuO6hzOe/OS8zC+Y5gd9mK+cCeYx4r0+HXdpm8Dvapvy8cZf51j3Rjz7VVI1yjj75l3h2eA91n7Kz4IN99bbfLsu7qlzZo1Yp2/zyP3leLw7aFMxeQa7HdTxl+9E1zvPp98y97CbZ/O1223eYxnne2SO8T2c+s7Gx4yTH8T3HjOPpu6XznymjfvVvZcjznhSZ/bnmng/ld8Rz9gT56lv64xt34zn9/cDKMAJRg==
+  </data>
+ </layer>
+ <layer name="collisions" width="24" height="24">
+  <properties>
+   <property name="tileset" value="basic"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgxkIQjEhsVHzR80fSPOx4aFg/igYBaNg5AIAxUkCyw==
+  </data>
+ </layer>
+ <objectgroup name="trees" width="24" height="24">
+  <object gid="6" x="48" y="144"/>
+  <object gid="6" x="304" y="144"/>
+ </objectgroup>
+ <objectgroup name="messages" width="24" height="24">
+  <object name="Welcome to level 1 ..." x="160" y="144" width="48" height="32">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+  <object name="... also the only level" x="160" y="96" width="48" height="32"/>
+  <object name="fuck my life" type="cp" x="160" y="48" width="48" height="16"/>
+ </objectgroup>
+ <objectgroup name="checkpoints" width="24" height="24">
+  <object name="0" x="160" y="224" width="48" height="32">
+   <properties>
+    <property name="s" value="10"/>
+   </properties>
+  </object>
+  <object name="1" x="16" y="16" width="48" height="32">
+   <properties>
+    <property name="s" value="5"/>
+   </properties>
+  </object>
+  <object name="3" x="320" y="16" width="48" height="32">
+   <properties>
+    <property name="s 10" value=""/>
+   </properties>
+  </object>
+  <object name="4" x="0" y="336" width="64" height="48">
+   <properties>
+    <property name="s" value="10"/>
+   </properties>
+  </object>
+  <object name="2" x="320" y="336" width="64" height="48">
+   <properties>
+    <property name="s" value="5"/>
+   </properties>
+  </object>
+  <object name="5" x="160" y="144" width="48" height="32">
+   <properties>
+    <property name="s" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="player" width="24" height="24">
+  <object x="176" y="144" width="16" height="16">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

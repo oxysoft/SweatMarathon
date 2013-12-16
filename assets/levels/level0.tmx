@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="24" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="basic" tilewidth="16" tileheight="16">
+  <image source="../images/tiles.png" width="256" height="32"/>
+ </tileset>
+ <layer name="terrain" width="24" height="24">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="tileset" value="basic"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztlNsOhCAMRLnJ/3+yPHCSscFS4+7T7iQTVHAoU9qU/vgVHDdsg3WwDOb5XGWuybfq6Ddhn//nqYs278x3IfMR/Wb+qXPsaa1ZZPT8QbcH1is4o+cPZ4Z4HgHe7+LHU32OIM/10Xg8Hc05njK+1S/pmiNLz/8IVKvJSL68+xnV1/urdcI9/qS+7kMdvwF5VV+IfZdfW+/E9mRfT9+e+al+pP+s+lYE2l/vYPPFXvis/VrXauxePNb7I13vi5Iaroae/qouNTY80G/au3f+fwMnE8QDPg==
+  </data>
+ </layer>
+ <layer name="collisions" width="24" height="24">
+  <properties>
+   <property name="tileset" value="basic"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEBzFIwJTC4w080kN2+FqPrXSGa3T8Kj5tDOfkvilxD0j2XxSwXA1nxYYAEBRGAs=
+  </data>
+ </layer>
+ <objectgroup name="checkpoints" width="24" height="24">
+  <object name="0" x="64" y="288" width="32" height="64">
+   <properties>
+    <property name="s" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="messages" width="24" height="24">
+  <object name="This game is pretty straight forward" x="144" y="80" width="48" height="48"/>
+  <object name="Welcome to Sweat Marathon!" x="80" y="128" width="32" height="32"/>
+  <object name="Get to the checkpoints, keep your heat down" x="224" y="80" width="48" height="48"/>
+  <object name="Shadows cool you down" x="288" y="176" width="48" height="96"/>
+  <object name="You only have one shirt, keep it dry" x="192" y="320" width="48" height="48"/>
+  <object type="cp" x="144" y="320" width="16" height="48"/>
+  <object name="Being too hot will make you sweat" x="288" y="320" width="48" height="48"/>
+ </objectgroup>
+ <objectgroup name="player" width="24" height="24">
+  <object x="96" y="144">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="trees" width="24" height="24">
+  <object x="224" y="208">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

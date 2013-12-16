@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="42" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="basic.tsx"/>
+ <tileset firstgid="33" name="tree" tilewidth="16" tileheight="16">
+  <image source="../images/tree.png" width="64" height="48"/>
+ </tileset>
+ <layer name="ground" width="100" height="42">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="tileset" value="basic"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="collisions" width="100" height="42">
+  <properties>
+   <property name="tileset" value="basic"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1UENAAAMArFZmH+zM4AAlrQJCnjcDAAAAADALxtGF98AbXSjW2q7zwAAAAAAAAAAgDYH+w0BZg==
+  </data>
+ </layer>
+ <objectgroup name="trees" width="100" height="42">
+  <properties>
+   <property name="nocollide" value="true"/>
+  </properties>
+  <object gid="42" x="672" y="240"/>
+  <object gid="42" x="848" y="224"/>
+  <object gid="42" x="688" y="64"/>
+  <object gid="42" x="464" y="128"/>
+  <object gid="42" x="544" y="320"/>
+  <object gid="42" x="688" y="336"/>
+  <object gid="42" x="864" y="384"/>
+  <object gid="42" x="1056" y="272"/>
+  <object gid="42" x="992" y="176"/>
+  <object gid="42" x="864" y="64"/>
+  <object gid="42" x="1120" y="96"/>
+  <object gid="42" x="1200" y="368"/>
+  <object gid="42" x="1040" y="496"/>
+  <object gid="42" x="528" y="448"/>
+  <object gid="42" x="368" y="272"/>
+  <object gid="42" x="528" y="192"/>
+  <object gid="42" x="400" y="64"/>
+  <object gid="42" x="672" y="528"/>
+  <object gid="42" x="896" y="592"/>
+ </objectgroup>
+ <objectgroup name="player" width="100" height="42">
+  <object name="player" x="812" y="264"/>
+ </objectgroup>
+ <objectgroup name="checkpoints" width="100" height="42">
+  <object name="0" x="621" y="138" width="139" height="25"/>
+  <object name="1" x="459" y="216" width="27" height="178"/>
+  <object name="2" x="615" y="414" width="237" height="46"/>
+ </objectgroup>
+</map>

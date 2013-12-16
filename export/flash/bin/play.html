@@ -1,0 +1,26 @@
+<html>
+
+<head>
+	<title>Ludum Dare 28</title>
+	<script type="text/javascript">
+		function refreshDiv() {
+			var container = document.getElementById("dialerDiv1");
+			var content = container.innerHTML;
+			container.innerHTML = content;
+		}
+	</script>
+</head>
+<body>
+	<center>
+		<div id="dialerDiv1">
+			<object width="640" height="480">
+				<param name="SRC" value"Ludum Dare 28.swf">
+				<embed src="Ludum Dare 28.swf" width="640" height="480"></embed>
+			</object>
+		</div>
+		<p>
+			<button onclick="refreshDiv()" style="width:680px">Reload</button>
+		</p>
+	</center>
+</body>
+</html>

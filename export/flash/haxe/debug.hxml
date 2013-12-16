@@ -1,0 +1,19 @@
+-main ApplicationMain 
+-lib openfl
+-lib flixel
+-lib flixel-ui
+-lib flixel-addons
+-lib actuate
+-cp source
+-D tools=1.2.0
+-D FLX_NO_DEBUG
+-D FLX_MOUSE_ADVANCED
+-D openfl=1.2
+-D web
+-swf-version 11.2
+-swf export/flash/bin/Ludum Dare 28.swf
+-swf-header 640:480:60:FFFFFF
+-cp export/flash/haxe
+#--remap nme:flash
+--no-inline
+-debug

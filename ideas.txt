@@ -1,0 +1,11 @@
+[THEME :: You Only Get One]
+
+- The sweat game
+	* You are a fat man with a tracksuit
+	* You must get to various locations in the least amount of time
+	* The sun is shining
+		> heat meter
+	* If you get too hot, you start sweating
+		> sweat meter
+		> people look at you in disgust
+		> lose point the more you sweat
